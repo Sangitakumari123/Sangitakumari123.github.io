@@ -2,77 +2,39 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Spider Millisecond Pulsars Catalog</title>
-    <style>
-        table {
-            width: 100%;
-            border-collapse: collapse;
-            margin: 20px 0;
-        }
-        table, th, td {
-            border: 1px solid black;
-        }
-        th, td {
-            padding: 10px;
-            text-align: center;
-        }
-        th {
-            background-color: #f2f2f2;
-        }
-    </style>
+    <title>Table with BibTeX References</title>
 </head>
 <body>
-    <header>
-        <h1>Spider Millisecond Pulsars Parameters</h1>
-    </header>
 
-    <section id="spider-msps">
-        <h2>Spider MSPs Information</h2>
-        <p>Below is a table listing the parameters of spider millisecond pulsars:</p>
-        <table>
-            <tr>
-                <th>Pulsar Name</th>
-                <th>Orbital Period (days)</th>
-                <th>Eclipsing</th>
-                <th>Mass Function (M☉)</th>
-                <th>Roche Lobe Filling Factor</th>
-                <th>Inclination Angle (degrees)</th>
-                <th>References</th>
-            </tr>
-            <tr>
-                <td>PSR J0024-7204</td>
-                <td>0.196</td>
-                <td>Yes</td>
-                <td>0.003</td>
-                <td>0.78</td>
-                <td>45</td>
-                <td><a href="https://example.com/reference1" target="_blank">Reference 1</a></td>
-            </tr>
-            <tr>
-                <td>PSR J1431-4715</td>
-                <td>0.133</td>
-                <td>No</td>
-                <td>0.002</td>
-                <td>0.56</td>
-                <td>60</td>
-                <td><a href="https://example.com/reference2" target="_blank">Reference 2</a></td>
-            </tr>
-            <tr>
-                <td>PSR J1740-5340</td>
-                <td>0.103</td>
-                <td>Yes</td>
-                <td>0.005</td>
-                <td>0.62</td>
-                <td>50</td>
-                <td><a href="https://example.com/reference3" target="_blank">Reference 3</a></td>
-            </tr>
-            <!-- Add more rows as needed -->
-        </table>
-    </section>
+<table border="1">
+    <thead>
+        <tr>
+            <th>Data</th>
+            <th>Description</th>
+            <th>Reference</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>Data Example 1</td>
+            <td>Description of data example 1.</td>
+            <td><a href="#ref-Author2024">Author2024</a></td>
+        </tr>
+        <tr>
+            <td>Data Example 2</td>
+            <td>Description of data example 2.</td>
+            <td><a href="#ref-Smith2021">Smith2021</a></td>
+        </tr>
+        <!-- Additional rows can be added similarly -->
+    </tbody>
+</table>
 
-    <footer>
-        <p>&copy; 2024 MyWebsite</p>
-    </footer>
+<h2>References</h2>
+<ul>
+    <li id="ref-Author2024">Author, A. A. (2024). <i>Title of the Article</i>. Journal Name, 12(3), 45-67.</li>
+    <li id="ref-Smith2021">Smith, B. B. (2021). <i>Another Article Title</i>. Journal of Interesting Studies, 5(1), 123-130.</li>
+    <!-- Additional references go here -->
+</ul>
+
 </body>
 </html>
