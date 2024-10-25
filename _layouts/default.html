@@ -1,40 +1,66 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>Table with BibTeX References</title>
-</head>
-<body>
-
-<table border="1">
+<table border="1" style="width:100%; text-align:center;">
+    <caption>Table listing the \( \dot{E}/a^{2} \), orbital inclination angle, and Roche lobe filling factor (RLFF) values for compact MSP binaries.</caption>
     <thead>
         <tr>
-            <th>Data</th>
-            <th>Description</th>
-            <th>Reference</th>
+            <th>Pulsar Name</th>
+            <th>Eclipse</th>
+            <th>\( \dot{E}/a^{2} \) <br> (× 10<sup>35</sup> erg/s \( R_\odot \)<sup>2</sup>)</th>
+            <th>Inclination <br> (degrees)</th>
+            <th>RLFF</th>
+            <th>Mass Function</th>
+            <th>References</th>
         </tr>
     </thead>
     <tbody>
         <tr>
-            <td>Data Example 1</td>
-            <td>Description of data example 1.</td>
-            <td><a href="#ref-Author2024">Author2024</a></td>
+            <td>J0023+0923 (BW)</td>
+            <td>no</td>
+            <td>0.09</td>
+            <td>42<sup>+4</sup><sub>-3</sub></td>
+            <td>0.36<sup>+0.18</sup><sub>-0.13</sub></td>
+            <td>0.000002</td>
+            <td><a href="#bak2020timing">bak2020timing</a>, <a href="#Mata_optical_J1544">Mata_optical_J1544</a></td>
         </tr>
         <tr>
-            <td>Data Example 2</td>
-            <td>Description of data example 2.</td>
-            <td><a href="#ref-Smith2021">Smith2021</a></td>
+            <td>J0024–7204I (BW)</td>
+            <td>no</td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td>0.000001</td>
+            <td><a href="#Freire200347tuc">Freire200347tuc</a></td>
         </tr>
-        <!-- Additional rows can be added similarly -->
+        <tr>
+            <td><strong>J0024–7204J (BW)</strong></td>
+            <td>yes</td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td>0.000005</td>
+            <td><a href="#J0024_previous_study">J0024_previous_study</a></td>
+        </tr>
+        <!-- Continue adding rows for each entry as in your table -->
+        <tr>
+            <td><strong>J1622–0315 (RB)</strong></td>
+            <td>yes</td>
+            <td>0.03</td>
+            <td>&lt; 83.4</td>
+            <td></td>
+            <td>0.000433</td>
+            <td><a href="#Sanpa-arsa_phd_thesis">Sanpa-arsa_phd_thesis</a>, <a href="#gamma_ray_eclipse">gamma_ray_eclipse</a></td>
+        </tr>
     </tbody>
 </table>
 
-<h2>References</h2>
-<ul>
-    <li id="ref-Author2024">Author, A. A. (2024). <i>Title of the Article</i>. Journal Name, 12(3), 45-67.</li>
-    <li id="ref-Smith2021">Smith, B. B. (2021). <i>Another Article Title</i>. Journal of Interesting Studies, 5(1), 123-130.</li>
-    <!-- Additional references go here -->
-</ul>
-
-</body>
-</html>
+<!-- Reference Links (Use with bib items if converted to direct links or static pages) -->
+<div id="references">
+    <h3>References</h3>
+    <ul>
+        <li id="bak2020timing">[1] Bak, et al., 2020. Timing...</li>
+        <li id="Mata_optical_J1544">[2] Mata, et al., Optical Study of J1544...</li>
+        <li id="Freire200347tuc">[3] Freire, et al., 2003. Study of 47 Tuc...</li>
+        <!-- Continue listing each reference as needed -->
+        <li id="Sanpa-arsa_phd_thesis">[X] Sanpa-arsa, PhD Thesis...</li>
+        <li id="gamma_ray_eclipse">[Y] Gamma-ray Eclipse Study...</li>
+    </ul>
+</div>
